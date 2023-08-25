@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Modal View Resume</title>
+  </head>
+  <body>
+    <button class="show-modal">About Me</button>
+    <button class="show-modal">Experiences</button>
+    <button class="show-modal">Skills</button>
+
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button> 
+      <!-- &times; ->changes to cross sign -->
+      <h1>About Me</h1>
+      <p>
+        Hi! I am Subhra. I am a web developer working with HTML, CSS, Javascript 
+        and frameworks of Javascript like React.js, Node.js, Expressjs. I am 
+        currently an engineering student with specialization in Electronics 
+        and Telecommunications. I am strengthening my foundation javascript and 
+        currently you are going through the sample project for the same purpose.
+      </p>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button> 
+      <!-- &times; ->changes to cross sign -->
+      <h1>Experiences</h1>
+      <p>I have done projects based on front-end and full-stack both such as 
+         "Guess the Number","Dice Game", "Pig Game" etc. I have participated 
+         in some hackathons as well. I have worked at E-Cell of my college as 
+         graphic designer
+      </p>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button> 
+      <!-- &times; ->changes to cross sign -->
+      <h1>Skills</h1>
+      <p>
+        Languages: C++, Javascipt
+        Framework & Library: Reactjs, Nodejs, Bootstrap, Expressjs
+        Tools: Github, FireBase
+
+      </p>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
